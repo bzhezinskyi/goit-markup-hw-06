@@ -303,11 +303,24 @@
 					</ul>
 				</div>
 			</section>
+			<!-- Модальне вікно -->
 			<div class="backdrop is-hidden" data-modal>
 				<div class="modal">
-					<button class="btn" type="button" data-modal-close>
-						<svg class="icon"><use href="./images/icon.svg#close"></use></svg>
+					<button class="close" type="button" data-modal-close>
+						<svg class="close-icon"><use href="./images/icon.svg#close"></use></svg>
 					</button>
+					<h2 class="titel">Оставьте свои данные, мы вам перезвоним</h2>
+					<form action="">
+						<div class="form-field"> <label for="">Имя</label> <input type="name" /></div>
+
+						<div class="form-field"> <label for="">Телефон</label> <input type="tel" /></div>
+
+						<div class="form-field"> <label for="">Почта</label> <input type="emeil" /></div>
+
+						<div class="form-field"> <label for="">Комментарий</label> <input type="text" /></div>
+
+						<button type="submit">Отправить</button>
+					</form>
 				</div>
 			</div>
 		</main>
