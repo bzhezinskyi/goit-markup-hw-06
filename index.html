@@ -310,14 +310,26 @@
 						<svg class="close-icon"><use href="./images/icon.svg#close"></use></svg>
 					</button>
 					<h2 class="titel">Оставьте свои данные, мы вам перезвоним</h2>
-					<form action="">
-						<div class="form-field"> <label for="">Имя</label> <input type="name" /></div>
+					<form action="" class="inputs">
+						<div class="form-field">
+							<label for="name">Имя</label>
+							<input type="name" id="name" />
+						</div>
 
-						<div class="form-field"> <label for="">Телефон</label> <input type="tel" /></div>
+						<div class="form-field">
+							<label for="tel">Телефон</label>
+							<input type="tel" id="tel" />
+						</div>
 
-						<div class="form-field"> <label for="">Почта</label> <input type="emeil" /></div>
+						<div class="form-field">
+							<label for="emeil">Почта</label>
+							<input type="emeil" id="emeil" />
+						</div>
 
-						<div class="form-field"> <label for="">Комментарий</label> <input type="text" /></div>
+						<div class="form-field">
+							<span>Комментарий</span>
+							<textarea for="">Введите текст</textarea>
+						</div>
 
 						<button type="submit">Отправить</button>
 					</form>
