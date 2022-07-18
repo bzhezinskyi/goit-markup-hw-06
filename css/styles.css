@@ -534,11 +534,17 @@ li {
 	border-radius: 50%;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	background-color: var(--header-bacground-color);
+	transition: fill 250ms var(--cubic);
 }
 
 .modal .close-icon {
 	width: 18px;
 	height: 18px;
+}
+
+.modal .close:hover,
+.modal .close:focus {
+	fill: var(--activation-color);
 }
 
 .modal .titel {
@@ -563,6 +569,10 @@ li {
 	margin-bottom: 10px;
 }
 
+.modal .form-fild.last {
+	margin-bottom: 20px;
+}
+
 .modal .form-text {
 	margin-bottom: 4px;
 
@@ -572,10 +582,15 @@ li {
 	color: var(--text-color);
 }
 
+.form-box {
+	position: relative;
+}
+
 .modal .form-input {
 	font: inherit;
 	padding-left: 42px;
 	height: 40px;
+	width: 100%;
 	border: none;
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	border-radius: 4px;
@@ -603,7 +618,9 @@ li {
 	top: 50%;
 	width: 18px;
 	height: 18px;
+
 	fill: var(--additional-text-color);
+	transform: translateY(-50%);
 	transition: fill 250ms var(--cubic);
 }
 
@@ -614,7 +631,6 @@ li {
 .modal .form-checkbox {
 	display: flex;
 	align-items: center;
-	margin-top: 10px;
 	margin-bottom: 30px;
 }
 
@@ -913,7 +929,7 @@ li {
 	margin-left: 10px;
 }
 
-.blok-emeil {
+.blok-email {
 	outline: none;
 	padding: 15px 16px;
 	width: 358px;
@@ -924,7 +940,7 @@ li {
 	color: var(--header-bacground-color);
 }
 
-.emeil-btn {
+.email-button {
 	min-width: 200px;
 	height: 50px;
 	padding: 10px 28px;
@@ -936,12 +952,12 @@ li {
 	background-color: var(--activation-color);
 }
 
-.emeil-button {
+.email-btn {
 	display: flex;
 	align-items: center;
 }
 
-.emeil-text {
+.email-text {
 	margin-right: 10px;
 	font-weight: 700;
 	font-size: 16px;
@@ -953,7 +969,7 @@ li {
 	color: var(--header-bacground-color);
 }
 
-.emeil-icon {
+.email-icon {
 	width: 24px;
 	height: 24px;
 	fill: var(--header-bacground-color);
