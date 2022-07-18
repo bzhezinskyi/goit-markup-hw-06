@@ -185,8 +185,10 @@ li {
 	height: 16px;
 	fill: currentColor;
 }
+/* /Верхняя линия */
 
 /* index */
+
 /* Шапка */
 
 .hero {
@@ -231,6 +233,7 @@ li {
 	cursor: pointer;
 	font-family: inherit;
 }
+/* /Шапка */
 
 /* Особености */
 .peculiarities {
@@ -279,12 +282,8 @@ li {
 	/* display: inline-block; */
 	width: 70px;
 	height: 70px;
-
-	/* padding-top: 25px;
-	padding-right: 100px;
-	padding-bottom: 25px;
-	padding-left: 100px; */
 }
+/* /Особености */
 
 /* Чем мы занимаемся */
 /* Наша команда */
@@ -428,6 +427,9 @@ li {
 	margin-left: 10px;
 }
 
+/* /Чем мы занимаемся */
+/* /Наша команда */
+
 /* Постоянные клиенты */
 
 .client .titel {
@@ -484,6 +486,8 @@ li {
 	height: 60px;
 	fill: currentColor;
 }
+
+/* /Постоянные клиенты */
 
 /* Модальне вікно */
 
@@ -688,7 +692,10 @@ li {
 	pointer-events: none;
 }
 
+/* /Модальне вікно */
+
 /* portfolio */
+
 /* Проекты */
 
 .portfolio {
@@ -833,6 +840,8 @@ li {
 	line-height: 1.87;
 }
 
+/* /Проекты */
+
 /* Подвал */
 
 .footer {
@@ -974,3 +983,5 @@ li {
 	height: 24px;
 	fill: var(--header-bacground-color);
 }
+
+/* /Подвал */
